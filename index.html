@@ -1,218 +1,836 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
 
-    <title>NOTARY</title>
+    <title>Nipro</title>
+  </head>
+  <body>
 
-</head>
-<body>
     <!-- header start -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                 <img src="images/logo.png" alt="Notary">
+      <div class="container p-0">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-light c_nav p-0">
+          <div class="container-fluid">
+            <a class="navbar-brand p-0" href="index.html">
+              <h1 class="logo m-0">Nipro Agency</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cusnav" aria-controls="cusnav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="cusnav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Conatct</a>
+                </li>
+              </ul>
+              <div class="dropdown n_search">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dd_search" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-search"></i>
                 </a>
+                <ul class="dropdown-menu c_ddm" aria-labelledby="dd_search">
+                  <form class="d-flex">
+                    <input class="form-control s_input me-2" type="search" placeholder="Search Here" aria-label="Search">
+                    <button class="btn s_btn" type="submit">Search</button>
+                  </form>
+                </ul>
+              </div>
             </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#" style="color: #bb253e;">Notarize a Document</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">eForms</a></li>
-                    <li><a href="#">Solutions</a></li>
-                    <li><a href="#">Become a Notary Agent</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>   
-            </nav>
-        </div>          
+          </div>
+        </nav>
+        <!-- nav -->
+      </div>
     </header>
     <!-- header end -->
-    <!-- banner start -->
-    <section class="banner">
-        <div class="container">
-            <div class="b_content">
-                <h1>get your document notarize right now</h1>
-                <p>Legally Notarize Your Documents Online Less Than 15 Minutes.</p>
-                <p>Contact With a Notary Public By computer,tablet or mobile device. Online 24x7</p>
-                <button type="button">notarize a document now</button>
-            </div>
-        </div>
-    </section>
-    <!-- banner end -->
-    <!-- work start -->
-    <section class="work">
-        <div class="container">
-            <div class="w_content">
-                <h2>how it works</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum neque facilisis arcu molestie, vel consectetur nulla fringilla.</p>
-                <div class="w_item">
-                    <!-- w.single1 start -->
-                    <div class="w_i_single">
-                        <div class="w_i_img">
-                            <img src="images/w_single1.jpg" alt="Notary">
-                        </div>
-                        <h4>Update your document and prove your identity</h4>
-                    </div>
-                    <!-- w.single1 end -->
-                    <!-- w.single2 start -->
-                    <div class="w_i_single">
-                        <div class="w_i_img">
-                            <img src="images/w_single2.jpg" alt="Notary">
-                        </div>
-                        <h4>Connect over live video with a notary public</h4>
-                    </div>
-                    <!-- w.single2 end -->
-                    <!-- w.single3 start -->
-                    <div class="w_i_single">
-                        <div class="w_i_img">
-                            <img src="images/w_single3.jpg" alt="Notary">
-                        </div>
-                        <h4>Sign in Notarize in five minutes flat</h4>
-                    </div>
-                    <!-- w.single3 end -->
+    <!-- slider start -->
+    <section class="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <!-- carousel -->
+            <div id="caro_slid" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="c_slider">
+                    <h2>We Have Talented Team</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing.</p>
+                    <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- work end -->
-    <!-- process start -->
-    <section class="process">
-        <div class="container">
-            <div class="p_content">
-                <div class="p_left">
-                    <h2>learn how the whole process work here</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi. Aliquam eget urna non risus tempus placerat. Nullam et pellentesque tellus.</p>
-                    <button type="button">learn more</button>
+                <div class="carousel-item">
+                  <div class="c_slider">
+                    <h2>We Have Talented Team</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing.</p>
+                    <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
                 </div>
-                <div class="p_right">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JvoMzlIBJa0" title="Notarize Process" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-item">
+                  <div class="c_slider">
+                    <h2>We Have Talented Team</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing.</p>
+                    <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
                 </div>
+              </div>
+              <button class="carousel-control-prev ccp" type="button" data-bs-target="#caro_slid" data-bs-slide="prev">
+                <span aria-hidden="true">PREV</span>
+              </button>
+              <div class="carousel-indicators slider_indicator">
+                <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <button class="carousel-control-next ccn" type="button" data-bs-target="#caro_slid" data-bs-slide="next">
+                <span aria-hidden="true">NEXT</span>
+              </button>
             </div>
+            <!-- carousel -->
+          </div>
         </div>
+      </div>
     </section>
-    <!-- process end -->
-    <!-- features start -->
-    <section class="features">
-        <div class="container">
-            <div class="f_content">
-                <h2>features</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum neque facilisis arcu molestie, vel consectetur nulla fringilla.</p>
-                <div class="f_item">
-                    <!-- f.single1 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single1.png" alt="Notary">
-                        </div>
-                        <h4>videoChat & conferencing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- f.single1 end -->
-                    <!-- f.single2 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single2.png" alt="Notary">
-                        </div>
-                        <h4>secure interactions</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- f.single2 end -->
-                    <!-- f.single3 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single3.png" alt="Notary">
-                        </div>
-                        <h4>online form editing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- f.single3 end -->
-                    <!-- f.single4 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single4.png" alt="Notary">
-                        </div>
-                        <h4>document co-editing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- p.single4 end -->
-                    <!-- p.single5 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single5.png" alt="Notary">
-                        </div>
-                        <h4>media test</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- f.single5 end -->
-                    <!-- f.single6 start -->
-                    <div class="f_i_single">
-                        <div class="f_i_img">
-                            <img src="images/f_single6.png" alt="Notary">
-                        </div>
-                        <h4>digital signature</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi.</p>
-                    </div>
-                    <!-- f.single6 end -->
-                    <button type="button">see all features</button>
+    <!-- slider end -->
+    <!-- service start -->
+    <section class="service">
+      <div class="container">
+        <!-- 1st row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="s_title text-center">
+              <div class="arw_ver m-auto"></div>
+              <h1>Welcome to Nipro</h1>
             </div>
+          </div>
         </div>
+        <!-- 1st row -->
+        <!-- 2nd row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="s_text text-center">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd row -->
+        <!-- 3rd row -->
+        <div class="row">
+          <div class="s_item">
+            <div class="row">
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="s_content">
+                  <div class="s_icon">
+                    <i class="pe-7s-diamond"></i>
+                  </div>
+                  <h2>Branding</h2>
+                  <div class="arw_hor"></div>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <a class="s_more" href="#">More<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="s_content">
+                  <div class="s_icon">
+                    <i class="pe-7s-rocket"></i>
+                  </div>
+                  <h2>UI & UX</h2>
+                  <div class="arw_hor"></div>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <a class="s_more" href="#">More<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="s_content">
+                  <div class="s_icon">
+                    <i class="pe-7s-ribbon"></i>
+                  </div>
+                  <h2>App Design</h2>
+                  <div class="arw_hor"></div>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <a class="s_more" href="#">More<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="s_content">
+                  <div class="s_icon">
+                    <i class="pe-7s-shield"></i>
+                  </div>
+                  <h2>Web Design</h2>
+                  <div class="arw_hor"></div>
+                  <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+                  <a class="s_more" href="#">More<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+              </div>
+              <!-- single item -->
+            </div>
+          </div>
+        </div>
+        <!-- 3rd row -->
+        <!-- 4th row -->
+        <div class="row">
+          <div class="about">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="images/diary.jpg" class="img-fluid" alt="Nipro">
+              </div>
+              <div class="col-lg-6">
+                <div class="a_content">
+                  <h1>About Us</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un</p> 
+                  <p>with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
+                  <button type="button" class="btn cm_btn">Learn More<i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4th row -->        
+      </div>      
     </section>
-    <!-- features end -->
+    <!-- service end -->
+    <!-- portfolio start -->
+    <section class="portfolio">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="p_title text-center">
+              <div class="arw_ver m-auto"></div>
+              <h1>Recent Work</h1>
+            </div>            
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="p_menu text-center">
+              <ul class="list-unstyled mb-0">
+                <li class="list-inline-item mixitup-control-active" data-filter="*">All</li>
+                <li class="list-inline-item" data-filter=".app">App Design</li>
+                <li class="list-inline-item" data-filter=".web">Web Design</li>
+                <li class="list-inline-item" data-filter=".ui">UI Design</li>
+                <li class="list-inline-item" data-filter=".photo">Photoshop</li>
+              </ul>
+            </div>           
+          </div>
+        </div>
+        <div class="row">
+          <div class="g_item">
+            <div class="row">
+              <!-- gallery item -->
+              <div class="col-lg-4 mix web">
+                <div class="g_content">
+                  <img src="images/portfolio1.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>Web Design</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+              <!-- gallery item -->
+              <div class="col-lg-4 mix app">
+                <div class="g_content">
+                  <img src="images/portfolio2.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>App Design</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+              <!-- gallery item -->
+              <div class="col-lg-4 mix ui">
+                <div class="g_content">
+                  <img src="images/portfolio3.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>UI Design</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+              <!-- gallery item -->
+              <div class="col-lg-4 mix app">
+                <div class="g_content">
+                  <img src="images/portfolio4.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>App Design</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+              <!-- gallery item -->
+              <div class="col-lg-4 mix web">
+                <div class="g_content">
+                  <img src="images/portfolio5.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>Web Design</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+              <!-- gallery item -->
+              <div class="col-lg-4 mix photo">
+                <div class="g_content">
+                  <img src="images/portfolio6.jpg" class="img-fluid" alt="Nipro">
+                  <div class="g_overlay">
+                    <div class="go_icon">
+                      <i class="pe-7s-plus"></i>
+                    </div>
+                    <div class="go_title">
+                      <h2>Projects Title</h2>
+                      <p>Photoshop</p>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+              <!-- gallery item -->
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+    <!-- choose start -->
+    <section class="choose">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="c_title text-center">
+              <div class="arw_ver m-auto"></div>
+              <h1>Why Choose Nipro</h1>
+            </div>            
+          </div>
+        </div>        
+        <div class="row">
+          <div class="c_item">
+            <div class="row">
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-diamond"></i>
+                    <h2>Creative Design</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-vector"></i>
+                    <h2>Minimal Design</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-photo"></i>
+                    <h2>Retina  Display</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-wristwatch"></i>
+                    <h2>Full Responsive</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-config"></i>
+                    <h2>Updates & Support</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-4">
+                <div class="c_content">
+                  <div class="c_head">
+                    <i class="pe-7s-edit"></i>
+                    <h2>Easy to Customize</h2>
+                  </div>
+                  <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some</p>
+                </div>
+              </div>
+              <!-- single item -->
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose end -->
+    <!-- team start -->
+    <section class="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="t_title text-center">
+              <div class="arw_ver m-auto"></div>
+              <h1>Who Work With Us</h1>
+            </div>            
+          </div>
+        </div>
+        <div class="row">
+          <div class="p_item">
+            <div class="row">
+              <!-- profile item -->
+              <div class="col-lg-3">
+                <div class="p_content">
+                  <img src="images/profile1.jpg" class="img-fluid" alt="Nipro">
+                  <div class="p_overlay">
+                    <ul class="list-unstyled mb-0">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="p_text">
+                    <h2>Ashiful Haque Pappu</h2>
+                    <p>UI/UX Designer</p>                    
+                  </div>
+                </div>                
+              </div>
+              <!-- profile item -->
+              <!-- profile item -->
+              <div class="col-lg-3">
+                <div class="p_content">
+                  <img src="images/profile2.jpg" class="img-fluid" alt="Nipro">
+                  <div class="p_overlay">
+                    <ul class="list-unstyled mb-0">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="p_text">
+                    <h2>Al-Rayhan</h2>
+                    <p>Interface Designer</p>                    
+                  </div>
+                </div>                
+              </div>
+              <!-- profile item -->
+              <!-- profile item -->
+              <div class="col-lg-3">
+                <div class="p_content">
+                  <img src="images/profile3.jpg" class="img-fluid" alt="Nipro">
+                  <div class="p_overlay">
+                    <ul class="list-unstyled mb-0">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="p_text">
+                    <h2>Santush Deb Nath</h2>
+                    <p>Web Developer</p>                    
+                  </div>
+                </div>                
+              </div>
+              <!-- profile item -->
+              <!-- profile item -->
+              <div class="col-lg-3">
+                <div class="p_content">
+                  <img src="images/profile4.jpg" class="img-fluid" alt="Nipro">
+                  <div class="p_overlay">
+                    <ul class="list-unstyled mb-0">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="p_text">
+                    <h2>Saif Ullah Patowary</h2>
+                    <p>Web Designer</p>                    
+                  </div>
+                </div>                
+              </div>
+              <!-- profile item -->           
+            </div>            
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- team end -->
+    <!-- buy start -->
+    <section class="buy">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="b_title text-center">
+              <div class="arw_ver m-auto"></div>
+              <h1>Best Pricing</h1>
+            </div>            
+          </div>
+        </div>
+        <div class="row">
+          <div class="b_item">
+            <div class="row">
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="b_content d-flex flex-column">
+                  <h2>Basic</h2>
+                  <p><span>$29</span> /Per Month</p>
+                  <ul class="list-unstyled mb-0">
+                    <li>-  1Th Storage</li>
+                    <li>-  Unlimited Members</li>
+                    <li>-  50 Projects</li>
+                    <li>-  70GB Bandwidth</li>
+                    <li>-  24/7 Customer Support</li>
+                  </ul>
+                  <button type="button" class="btn cm_btn">Sign Up<i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="b_content d-flex flex-column">
+                  <h2>Standard</h2>
+                  <p><span>$59</span> /Per Month</p>
+                  <ul class="list-unstyled mb-0">
+                    <li>-  1Th Storage</li>
+                    <li>-  Unlimited Members</li>
+                    <li>-  50 Projects</li>
+                    <li>-  70GB Bandwidth</li>
+                    <li>-  24/7 Customer Support</li>
+                  </ul>
+                  <button type="button" class="btn cm_btn">Sign Up<i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="b_content d-flex flex-column">
+                  <h2>Enterprise</h2>
+                  <p><span>$89</span> /Per Month</p>
+                  <ul class="list-unstyled mb-0">
+                    <li>-  1Th Storage</li>
+                    <li>-  Unlimited Members</li>
+                    <li>-  50 Projects</li>
+                    <li>-  70GB Bandwidth</li>
+                    <li>-  24/7 Customer Support</li>
+                  </ul>
+                  <button type="button" class="btn cm_btn">Sign Up<i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+              </div>
+              <!-- single item -->
+              <!-- single item -->
+              <div class="col-lg-3">
+                <div class="b_content d-flex flex-column">
+                  <h2>Platinum</h2>
+                  <p><span>$199</span> /Per Month</p>
+                  <ul class="list-unstyled mb-0">
+                    <li>-  1Th Storage</li>
+                    <li>-  Unlimited Members</li>
+                    <li>-  50 Projects</li>
+                    <li>-  70GB Bandwidth</li>
+                    <li>-  24/7 Customer Support</li>
+                  </ul>
+                  <button type="button" class="btn cm_btn">Sign Up<i class="fas fa-long-arrow-alt-right"></i></button>                
+                </div>
+              </div>
+              <!-- single item -->              
+            </div>            
+          </div>          
+        </div>        
+      </div>      
+    </section>
+    <!-- buy end -->
+    <!-- template start -->
+    <section class="template">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="product text-start">
+              <h2>Nipro  |  Responsive HTML Template</h2>              
+            </div>   
+          </div>
+          <div class="col-lg-4">
+            <div class="shop text-end">
+              <button type="button" class="btn cm_btn">Buy Now<i class="fas fa-long-arrow-alt-right"></i></button>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+    <!-- template end -->
+    <!-- testimonial start -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <!-- carousel -->
+          <div id="caro_profile" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="row">
+                <div class="col-lg-11">
+                  <div class="carousel-item active">
+                    <div class="profile">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <img src="images/profile1.jpg" class="img-fluid" alt="Nipro">
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="p_slider">
+                            <h2>Ashiful Haque Pappu</h2>
+                            <h4>Co-Founder & COO</h4>
+                            <h3>Deviser Web</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+                            <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="profile">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <img src="images/profile2.jpg" class="img-fluid" alt="Nipro">
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="p_slider">
+                            <h2>Al-Rayhan</h2>
+                            <h4>Co-Founder & COO</h4>
+                            <h3>Deviser Web</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+                            <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="profile">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <img src="images/profile3.jpg" class="img-fluid" alt="Nipro">
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="p_slider">
+                            <h2>Santush Deb Nath</h2>
+                            <h4>Co-Founder & COO</h4>
+                            <h3>Deviser Web</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+                            <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-1">
+                  <div class="btn_indicator">
+                    <button class="carousel-control-prev p_ccp" type="button" data-bs-target="#caro_profile" data-bs-slide="prev">
+                      <span aria-hidden="true">PREV</span>
+                    </button>
+                    <div class="carousel-indicators profile_indicator">
+                      <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#c_sliderControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-next p_ccn" type="button" data-bs-target="#caro_profile" data-bs-slide="next">
+                      <span aria-hidden="true">NEXT</span>
+                    </button>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel -->
+        </div>        
+      </div>
+    </section>
+    <!-- testimonial end -->
+    <!-- contact start -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="c_wrapper">
+            <div class="offset-2 col-8">
+              <div class="con_title">
+                <h1>Contact US</h1>
+              </div>
+              <!-- form -->
+              <form class="con_form">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                      <label for="floatingInput">First Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="Last Name">
+                      <label for="floatingInput">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Your Email">
+                      <label for="floatingInput">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-floating mb-3">
+                      <textarea id="text-area" class="form-control" cols="30" rows="5"></textarea>
+                      <label for="floatingInput">Your Message...</label>
+                    </div>
+                  </div>
+                  <div class="send text-center">
+                    <button type="button" class="btn cm_btn">Send Now<i class="fas fa-long-arrow-alt-right"></i></button>
+                  </div>
+                </div> 
+              </form>
+              <!-- form -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
     <!-- footer start -->
     <footer>
-        <div class="f_up">
-            <div class="container">
-                <!-- contact start -->
-                <div class="contact">
-                    <h3 class="heading">contact us</h3>
-                    <ul>
-                        <li>30543099,30645088</li>
-                        <li>eformnotary@gmail.com</li>
-                        <li>23/4 Boren Road, Pork Tree Sreet, UK</li>
-                    </ul>
-                    <div class="social">
-                        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-                        <a href="#"><img src="images/youtube.png" alt="Youtube"></a>
-                        <a href="#"><img src="images/pinterest.png" alt="Pinterest"></a>                    
-                    </div>
-                </div>
-                <!-- contact end -->
-                <!-- link start -->
-                <div class="link">
-                    <h3 class="heading">useful link</h3>
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">terms & conditions</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">knowledge center</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </div>
-                <!-- link end -->
-                <!-- news start -->
-                <div class="news">
-                    <h3 class="heading">our newsletter</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sem mi. Aliquam eget urna non risus tempus placerat.</p>
-                    <div class="subscribe">
-                        <form class="sub_form" action="" method="">
-                            <input type="email" placeholder="Email">
-                            <button type="submit">subscribe</button>
-                        </form>
-                    </div>
-                </div>
-                <!-- news end -->
+      <section class="footer_top">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div class="f_title text-center">
+                <div class="arw_ver m-auto"></div>
+                <h1>Nipro Agency</h1>
+              </div>
             </div>
-        </div>
-        <div class="f_down">
-                <p>Copyright 2021 All rights reserved | This template is made with love by <span>TOUHID007</span></p>
-        </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div class="f_text text-center">
+                <p>Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum Has been the koi jabi mama</p>               
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="f_icon text-center">
+                <ul class="list-unstyled mb-0">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-behance"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+        </div>        
+      </section>
+      <section class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="f_b_left">
+                <p>All rights reserved NIPRO AGENCY  |  By : TOUHID AHMED</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="f_b_right">
+                <ul class="list-unstyled text-end mb-0">
+                  <li class="list-inline-item"><a class="text-decoration-none" href="#">Support</a></li>
+                  <li class="list-inline-item"><a class="text-decoration-none" href="#">Sitemap</a></li>
+                  <li class="list-inline-item"><a class="text-decoration-none" href="#">Contact Us</a></li>
+                  <li class="list-inline-item"><a class="text-decoration-none" href="#">Terms of Use</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+        </div>        
+      </section>
     </footer>
+
     <!-- footer end -->
-</body>
+
+    
+
+    <!-- JS links -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/mixitup.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
 </html>
